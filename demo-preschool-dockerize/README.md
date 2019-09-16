@@ -76,5 +76,5 @@ docker tag demo-preschool-dockerize:0.0.1 {your_dockerhub_id}/demo-preschool-doc
 ~~~
 + docker hub에 push
 ~~~
-docker push bravopotato/demo-preschool-dockerize:0.0.1
+docker push {your_dockerhub_id}/demo-preschool-dockerize:0.0.1
 ~~~
