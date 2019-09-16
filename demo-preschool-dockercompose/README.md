@@ -1,4 +1,5 @@
 # Docker Compose를 이용한 Loading
+- docker compose는 다양한 docker image간의 관계를 만들 수 있다.
 
 ## 순서
 1. 단순한 springboot application을 만든다.
