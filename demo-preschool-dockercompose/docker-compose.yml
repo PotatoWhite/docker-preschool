@@ -1,0 +1,11 @@
+version: "3"
+services:
+  springboot-app-container:
+    image : demo-preschool-dockercompose:0.0.1
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /data/springboot-app
+    ports:
+      - "8081:8081"
