@@ -64,3 +64,17 @@ docker run -p 8081:8080 --name docker-preschool-01 demo-preschool-dockerize:0.0.
 
 ## 실행확인
 - 브라우져에서 localhost:8081 로 접속
+
+## docker hub에 등록
++ docker hub login(없으면 계정만드세요)
+~~~
+docker login
+~~~
++ docker hub에 등록 정보 설정
+~~~
+docker tag demo-preschool-dockerize:0.0.1 {your_dockerhub_id}/demo-preschool-dockerize:0.0.1
+~~~
++ docker hub에 push
+~~~
+docker push bravopotato/demo-preschool-dockerize:0.0.1
+~~~
